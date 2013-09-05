@@ -1,0 +1,12 @@
+development: &global_settings
+  host: localhost
+  database: jbi
+  port: 27017
+
+
+test:
+  database: marv-test
+  <<: *global_settings
+
+  
+
